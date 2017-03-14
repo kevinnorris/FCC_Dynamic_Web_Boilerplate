@@ -34,7 +34,7 @@ For the ```MONGO_URI``` install mongodb locally and add the local URI or use som
 
 Add a secret string to the ```JWT_SECRET```
 
-Change the ```userStorageString``` and ```tokenStorageString``` variables in ```client/util/localStorage.js``` to a custom value. Otherwise any other versions of this project will overwrite your local storage saves.
+Change the ```userStorageString``` and ```tokenStorageString``` variables in ```client/src/util/localStorage.js``` to a custom value. Otherwise any other versions of this project will overwrite your local storage saves.
 
 #### Installing Packages
 
