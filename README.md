@@ -1,8 +1,8 @@
 # Boilerplate for freeCodeCamp’s dynamic web application projects
 
-This project provides a simple setup for building full stack applications in ES6. 
+This project provides a simple setup for building full stack applications in ES6.
 
-The backend is an API server built with [Express](http://expressjs.com/) that allows the client to access data and authenticate through api calls. [Passport](http://passportjs.org/) is used for authentication with third parties and [JSON Web Tokens](https://jwt.io/) for client to server authentication. [mongoose](http://mongoosejs.com/) is used to interact with a [MongoDB](https://www.mongodb.com/) database. 
+The backend is an API server built with [Express](http://expressjs.com/) that allows the client to access data and authenticate through api calls. [Passport](http://passportjs.org/) is used for authentication with third parties and [JSON Web Tokens](https://jwt.io/) for client to server authentication. [mongoose](http://mongoosejs.com/) is used to interact with a [MongoDB](https://www.mongodb.com/) database.
 
 The frontend is a single page application built using [ReactJS](https://facebook.github.io/react/) and [Redux](http://redux.js.org/).
 
@@ -24,11 +24,13 @@ PORT=8080
 APP_URL=http://localhost:8080/
 JWT_SECRET=
 ```
-Create a github app for authentication. 
+
+Create a github app for authentication.
+
 * For the homepage URL paste ```http://localhost:8080/```
 * For the Authorization callback URL paste ```http://localhost:8080/auth/github/callback```
 
-GitHub will create an app and present you with a Client ID and a Client Secret which you add to to the .env file as the ```GITHUB_KEY``` and ```GITHUB_SECRET``` respectively. 
+GitHub will create an app and present you with a Client ID and a Client Secret which you add to to the .env file as the ```GITHUB_KEY``` and ```GITHUB_SECRET``` respectively.
 
 For the ```MONGO_URI``` install mongodb locally and add the local URI or use something like [mLab](https://mlab.com/)
 
@@ -38,10 +40,10 @@ Change the ```userStorageString``` and ```tokenStorageString``` variables in ```
 
 #### Installing Packages
 
-You must have Nodejs installed on your machine. 
+You must have Nodejs installed on your machine.
 
 * Open the main directory in a terminal and ```npm install```
-*  Start the project ```npm run server```
+* Start the project ```npm run server```
 
 ##### For Development
 
@@ -54,7 +56,6 @@ When changes are made to the client webpack will re-transpile the files and when
 
 * Build with ```npm run build```
 * Run with ```npm start```
-
 
 ## License
 
